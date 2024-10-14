@@ -53,7 +53,7 @@ void FloatArray::push_back(float value) {
 }
 
 float FloatArray::getValue(int index){
-    assert( index >=0 && index < size());
+    assert( index >=0 && index < size());   //HERE 
     return data[index];
 
     

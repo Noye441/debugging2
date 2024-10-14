@@ -2,7 +2,7 @@
 #define FILES_H
 
 #include"Container.h"
-#include<string>
+#include <string>
 
 void read( const std::string& filename, FloatArray& data);
 
